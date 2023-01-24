@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <div id="app"></div>
+        <script type="text/javascript">
+            // Séléction de la balise div avec l'id 'app'
+            const app = document.getElementById('app');
+            // Création d'un nouvel élément HTML, une balise h1
+            const header = document.createElement('h1')
+            // Création de texte pour l'élément HTML h1
+            const headerContent = document.createTextNode(
+                'De l\'html crée avec du JavaScript!'
+            );
+            //Ajout du texte à l'élément HTML h1
+            header.append(headerContent);
+            //Ajout de l'élément HTML à l'intérieur de la div
+            app.appendChild(header);
+        </script>
+    </body>
+</html>
