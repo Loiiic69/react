@@ -1,50 +1,80 @@
-.App {
+.centered-container {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 20vh;
+}
+
+.text-input {
+  border: 1px solid gray;
+  padding: 0.5em;
+  margin: 0.5em;
+  width: 80%;
   text-align: center;
 }
-.App-header {
-  background-color: #B67332;
-  min-height: 100vh;
+
+.submit-button {
+  background-color: green;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  margin: 0.5em;
+  width: 60%;
+  text-align: center;
+}
+
+#user-list-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 2em;
+  text-align: center;
 }
 
-h1{
-  font-size: calc(10px + 2vmin);
-  background-color: #DAAB3A;
-  border-radius: 30px;
-  
+#user-list-title {
+  background-color: aliceblue;
+  margin-bottom: 1em;
+  font-size:1.5em;
+  font-weight:bold;
+  text-align: center;
 }
+
+#user-list {
+
+  list-style-type: none;
+  width: 95%;
+  text-align: center;
+  align-items: center;
+}
+
 .user {
-  width: 70%;
-  margin: 10px;
-  background-color: #DAAB3A;
-  border-radius: 20px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: aliceblue;
+  border: 1px solid gray;
+  padding: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
   text-align: center;
-  list-style: none;
-
-  
 }
-input[type=text] {
-  border: none;
-  border-bottom: 2px solid #93441A;
-  background-color: #e5e7e6;
-  border-radius: 50px;
+
+.userName {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-size:1.2em;
   text-align: center;
-  font-size: calc(2px + 2vmin);
-
-
 }
-input[type=number] {
-  border: none;
-  border-bottom: 2px solid #93441A;
-  background-color: #e5e7e6;
-  border-radius: 50px;
-  text-align: center;
-  font-size: calc(1px + 2vmin);
 
+.userAge {
+  margin-bottom: 0.5em;
+  font-size:1.2em;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 110;
+  background-color: aliceblue;
 }
