@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #B67332;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1{
+  font-size: calc(10px + 2vmin);
+  background-color: #DAAB3A;
+  border-radius: 30px;
+  
+}
+.user {
+  width: 70%;
+  margin: 10px;
+  background-color: #DAAB3A;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  list-style: none;
+
+  
+}
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid #93441A;
+  background-color: #e5e7e6;
+  border-radius: 50px;
+  text-align: center;
+  font-size: calc(2px + 2vmin);
+
+
+}
+input[type=number] {
+  border: none;
+  border-bottom: 2px solid #93441A;
+  background-color: #e5e7e6;
+  border-radius: 50px;
+  text-align: center;
+  font-size: calc(1px + 2vmin);
+
+}

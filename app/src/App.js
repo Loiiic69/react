@@ -6,9 +6,14 @@ import { Prevision } from './prevision'
 function App() {
 
   const depensesInfos = [
+    { date: "5 juin 2023", article: "Café", prix: 1 },
     { date: "3 janvier 2023", article: "Souris de pc", prix: 10 },
-    { date: "5 juin 2023", article: "café", prix: 1 },
-    { date: "5 Juillet 2023", article: "iPhone", prix: 1000.50 }
+    { date: "5 Juillet 2023", article: "iPhone", prix: 1000.50 },
+    { date: "3 janvier 2023", article: "Souris de pc", prix: 10 },
+    { date: "3 janvier 2023", article: "Souris de pc", prix: 10 },
+    { date: "3 janvier 2023", article: "Souris de pc", prix: 10 }
+
+
   ]
   const previsions = [
     { date: "2 Juin 2023", temperature:"25", meteo:"Soleil"},
@@ -23,7 +28,7 @@ function App() {
         }
       </Table>    
       
-      <Table title="Météo" colones={["Date", "Température", "Météo"]}>
+      <Table title=" " colones={["Date", "Température", "Météo"]}>
          {
           previsions.map(function (prevision){
             return(
